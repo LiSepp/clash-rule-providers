@@ -1,5 +1,5 @@
 payload:
-  # 中国联通：工作域名必须直连
+  # 
   - 'DOMAIN-KEYWORD,chinaunicom'
   - 'DOMAIN-SUFFIX,chinaunicom.cn'
   - 'DOMAIN-SUFFIX,chinaunicom.com.cn'
