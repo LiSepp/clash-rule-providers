@@ -1,0 +1,35 @@
+payload:
+  # 中国联通：工作域名必须直连
+  - 'DOMAIN-KEYWORD,chinaunicom'
+  - 'DOMAIN-SUFFIX,chinaunicom.cn'
+  - 'DOMAIN-SUFFIX,chinaunicom.com.cn'
+  - 'DOMAIN-SUFFIX,10010.com'
+  - 'DOMAIN-SUFFIX,wo.cn'
+
+  # 企业微信 / WeCom：显式直连
+  - 'DOMAIN-SUFFIX,work.weixin.qq.com'
+  - 'DOMAIN-SUFFIX,wecom.qq.com'
+  - 'DOMAIN-SUFFIX,wecom.cn'
+  - 'DOMAIN-SUFFIX,wxwork.weixin.qq.com'
+  - 'DOMAIN-SUFFIX,qyapi.weixin.qq.com'
+  - 'DOMAIN-SUFFIX,wework.qpic.cn'
+  - 'DOMAIN-SUFFIX,wwcdn.weixin.qq.com'
+
+  # 测试确认需要显式直连的国内服务
+  - 'DOMAIN-SUFFIX,myqcloud.com'
+  - 'DOMAIN-SUFFIX,tencent-cloud.net'
+  - 'DOMAIN-SUFFIX,douyinvod.com'
+  - 'DOMAIN-SUFFIX,douyinpic.com'
+  - 'DOMAIN-SUFFIX,volces.com'
+  - 'DOMAIN-SUFFIX,bcebos.com'
+  - 'DOMAIN-SUFFIX,jd.hk'
+  - 'DOMAIN-SUFFIX,jdstatic.com'
+  - 'DOMAIN-SUFFIX,doubanio.com'
+  - 'DOMAIN-SUFFIX,ctripcorp.com'
+  - 'DOMAIN-SUFFIX,beike.com'
+  - 'DOMAIN-SUFFIX,wps.com'
+  - 'DOMAIN-SUFFIX,dji.com'
+  - 'DOMAIN-SUFFIX,djicdn.com'
+  - 'DOMAIN-SUFFIX,ugreen.com'
+  - 'DOMAIN-SUFFIX,mijia.com'
+  - 'DOMAIN-SUFFIX,mi-img.com'
