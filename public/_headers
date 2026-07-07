@@ -1,0 +1,4 @@
+/rules/*.yaml
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=300
+  Content-Type: text/yaml; charset=utf-8
