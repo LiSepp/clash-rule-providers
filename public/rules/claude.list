@@ -1,0 +1,24 @@
+# Claude / Anthropic - Loon remote rules
+# Updated: 2026-11-03
+# Select the desired policy when importing this list into Loon.
+# Place before general AI/Google/payment rules for this policy to take priority.
+# Domain routing only: this list does not select or verify an exit IP.
+#
+# Claude / Anthropic
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,anthropic.services
+DOMAIN-SUFFIX,claudeusercontent.com
+#
+# Shared Google sign-in endpoint; also affects sign-ins outside Claude.
+DOMAIN,accounts.google.com
+#
+# Shared Stripe payment/CDN endpoints; also affects payments outside Claude.
+# Matching exits do not guarantee payment approval or cover bank-hosted 3DS pages.
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+#
+# Format: https://github.com/Loon0x00/LoonExampleConfig/blob/master/Rule/ExampleRule.list
+# Stripe domains: https://docs.stripe.com/ips
