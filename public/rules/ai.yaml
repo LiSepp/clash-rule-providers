@@ -12,3 +12,30 @@ payload:
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,xai.com
   - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,kiro.dev
+  - DOMAIN,q.us-east-1.amazonaws.com
+  - DOMAIN,q.eu-central-1.amazonaws.com
+  - DOMAIN,desktop-release.q.us-east-1.amazonaws.com
+  - DOMAIN,kiro-prod-us-east-1.auth.us-east-1.amazoncognito.com
+  - DOMAIN,prod.us-east-1.telemetry.kiro.aws.dev
+  - DOMAIN,dataplane.rum.us-east-1.amazonaws.com
+  - DOMAIN,dataplane.rum.eu-central-1.amazonaws.com
+  - DOMAIN,a0.awsstatic.com
+  - DOMAIN,prod.assets.shortbread.aws.dev
+  - DOMAIN,prod.log.shortbread.aws.dev
+  - DOMAIN,prod.tools.shortbread.aws.dev
+  - DOMAIN,rendering.aperture-public-api.feedback.console.aws.dev
+  - DOMAIN,view.awsapps.com
+  - DOMAIN,profile.aws.amazon.com
+  - DOMAIN,us-east-1.signin.aws
+  - DOMAIN,us-east-1.sso.signin.aws
+  - DOMAIN,us-east-1.credentials.signin.aws
+  - DOMAIN,oidc.us-east-1.amazonaws.com
+  - DOMAIN,oidc.us-east-1.api.aws
+  - DOMAIN,sso.us-east-1.api.aws
+  - DOMAIN,portal.sso.us-east-1.amazonaws.com
+  - DOMAIN,assets.sso-portal.us-east-1.amazonaws.com
+  - DOMAIN,log.sso-portal.us-east-1.amazonaws.com
+  - DOMAIN,static.global.sso.amazonaws.com
+  - DOMAIN,prod.pa.cdn.uis.awsstatic.com
+  - DOMAIN,opfcaptcha-prod.s3.amazonaws.com
