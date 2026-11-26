@@ -5,7 +5,7 @@ Static Clash rule-provider files for separating node subscriptions from routing 
 ## URLs
 
 - `/rules/direct.yaml`: enterprise and China-direct rules.
-- `/rules/ai.yaml`: OpenAI, Claude, and Grok rules.
+- `/rules/ai.yaml`: OpenAI, Gemini, Grok, Grok Bot, and Kiro (AWS Builder ID) rules.
 - `/rules/proxy.yaml`: common global/proxy rules.
 
 ## Clash Example

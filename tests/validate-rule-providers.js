@@ -28,8 +28,23 @@ assert.ok(direct.includes("IP-CIDR,10.0.0.0/8,no-resolve"));
 
 assert.ok(ai.includes("DOMAIN-SUFFIX,openai.com"));
 assert.ok(ai.includes("DOMAIN-SUFFIX,chatgpt.com"));
-assert.ok(ai.includes("DOMAIN-SUFFIX,claude.ai"));
-assert.ok(ai.includes("DOMAIN-SUFFIX,anthropic.com"));
+for (const domain of ["anthropic.com", "anthropic.services", "claude.ai", "claudeusercontent.com"]) {
+  assert.ok(!ai.includes(`DOMAIN-SUFFIX,${domain}`), `Unexpected Claude rule: ${domain}`);
+}
+for (const rule of [
+  "DOMAIN,gemini.google.com",
+  "DOMAIN,aistudio.google.com",
+  "DOMAIN,generativelanguage.googleapis.com",
+  "DOMAIN,cloudcode-pa.googleapis.com",
+  "DOMAIN-SUFFIX,grokusercontent.com",
+  "DOMAIN-SUFFIX,grok.bot",
+  "DOMAIN-SUFFIX,cursor.sh",
+  "DOMAIN-SUFFIX,cursorvm.com",
+  "DOMAIN,downloads.cursor.com",
+]) {
+  assert.ok(ai.includes(rule), `Missing AI rule: ${rule}`);
+}
+assert.equal(new Set(ai).size, ai.length, "AI rules must be unique");
 assert.ok(ai.includes("DOMAIN-SUFFIX,x.ai"));
 assert.ok(ai.includes("DOMAIN-SUFFIX,grok.com"));
 
